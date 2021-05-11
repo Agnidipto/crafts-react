@@ -1,0 +1,154 @@
+.Menubar,
+.MenubarB {
+  width: 105%;
+  height: 64px;
+  /* box-shadow: 0px 5px 10px grey; */
+  background-color: rgb(36, 35, 35);
+  text-align: left;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  color: white;
+  top: 0;
+}
+
+.Menubar .menuLogo,
+.MenubarB .menuLogo {
+  height: 14px;
+  width: 14px;
+  object-fit: contain;
+  margin-right: 16px;
+  margin-top: 18px;
+  margin-left: 82px;
+  cursor: pointer;
+}
+
+.Menubar p,
+.MenubarB p {
+  display: inline-block;
+  width: 300px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  margin-top: 17px;
+}
+
+.ButtonAndUser {
+  display: flex;
+  position: fixed;
+  right: 0;
+  /* margin-left: 68.2%; */
+}
+
+.User {
+  width: 24px;
+  height: 24px;
+  background-color: #b3b3b3;
+  text-align: right;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+
+.User.noButton {
+  margin-right: 42px;
+}
+
+.User.withbutton {
+  margin-right: 30px;
+}
+
+.ButtonAndUser .userIcon {
+  margin-right: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Menubar .ButtonAndUser .ui.button.Button,
+.MenubarB .ButtonAndUser .ui.button.Button {
+  width: 150px;
+  height: 36px;
+  object-fit: contain;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-right: 30px;
+  flex-direction: row;
+  border-radius: 2px;
+  background-color: #34b4ac;
+  color: #ffffff;
+  font-family: Poppins !important;
+  font-weight: 400 !important;
+  flex-direction: row;
+}
+
+.Menubar .ButtonAndUser .ui.button.Button:hover,
+.MenubarB .ButtonAndUser .ui.button.Button:hover {
+  background-color: #26837d;
+}
+
+.ui.popup.UserPopup {
+  z-index: 150;
+  border-radius: 0;
+  padding: 0;
+}
+
+p.UserOptions {
+  width: 120px;
+  height: 100%;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 5px 5px 5px 13px;
+  cursor: pointer;
+  display: flex;
+}
+
+p.UserOptions:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+p.UserOptions i.icon {
+  margin-top: 3px;
+  margin-right: 8px;
+}
+
+.fa-bars {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.drop {
+  margin-top: 20px;
+}
+
+@media (max-width: 450px) {
+  .Menubar,
+  .MenubarB {
+    margin-left: 0;
+  }
+
+  .Menubar .ButtonAndUser .ui.button.Button,
+  .MenubarB .ButtonAndUser .ui.button.Button {
+    width: 120px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+  .User.withbutton {
+    margin-right: 10px;
+  }
+}

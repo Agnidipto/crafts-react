@@ -1,0 +1,29 @@
+.custom-file-upload {
+  /* border: 1px solid #ccc; */
+  background-color: rgb(48, 48, 48);
+  border-radius: 0.3rem;
+  padding: 20px 12px;
+
+  cursor: pointer;
+}
+
+.profileImageDisp {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.profile-disp {
+  min-height: 85.1vh;
+  margin-top: 85px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 1000px) {
+  .profileImageDisp {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .profile-picture-segment {
+    width: 90%;
+  }
+}

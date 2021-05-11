@@ -1,0 +1,28 @@
+.hr1 {
+  height: 10px;
+  border: 0;
+  margin: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.login-title {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.login-form {
+  margin: 10px;
+  text-align: left;
+}
+
+.login-button {
+  text-align: center;
+}
+
+.rest-of-page {
+  height: 89vh;
+}
+
+.login-button {
+  margin-top: 30px;
+}

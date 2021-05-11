@@ -1,0 +1,30 @@
+.homediv {
+  height: 500px;
+}
+
+.right-segment {
+  margin-top: 85px;
+}
+
+.left-segment {
+  margin: 85px 2.5% 0;
+  padding-right: 0px;
+  position: fixed;
+  width: 22%;
+}
+
+.new-post-button {
+  width: 100%;
+}
+
+.top-segment {
+  height: 35vh;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .left-segment {
+    visibility: hidden;
+    height: 0px;
+  }
+}

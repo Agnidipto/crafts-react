@@ -1,0 +1,29 @@
+.login-signup {
+  width: 506px;
+  margin-left: 30%;
+  margin-top: 95px;
+  min-height: 83vh;
+  padding-bottom: 30px;
+}
+
+.login-signup.menu {
+  margin-left: 30%;
+}
+
+.login-form.segment {
+  padding: 30%;
+}
+
+@media only screen and (max-width: 900px) {
+  .login-signup {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .login-signup {
+    width: 70%;
+    margin-left: 15%;
+  }
+}

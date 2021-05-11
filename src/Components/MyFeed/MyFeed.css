@@ -1,0 +1,23 @@
+div.myfeed {
+  margin-top: 85px;
+}
+.profileImage {
+  text-align: center;
+  max-height: 200px;
+  padding: 0;
+}
+
+.ui.secondary.inverted.pointing.menu .active.item {
+  border-color: #00b5ad;
+
+  color: #00b5ad !important;
+}
+
+.myfeed .menu {
+  justify-content: center;
+}
+
+div.post-notification {
+  width: 90%;
+  margin-left: 5%;
+}
